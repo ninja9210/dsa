@@ -1,12 +1,8 @@
 # DSA Practicals
 
-This repository contains various DSA practicals implemented in C++.
 
-# Data Structures and Algorithms
 
-This repository contains implementations of various data structures and algorithms in C++. Each algorithm is implemented in a separate file for clarity and ease of understanding.
-
-## Repository Structure
+## new added 01 t0 09
 
 - [Bubble Sort](https://github.com/ninja9210/dsa/blob/main/01/bubble_sort.cpp)
 - [Quick Sort](https://github.com/ninja9210/dsa/blob/main/02/quick_sort.cpp)
@@ -17,26 +13,6 @@ This repository contains implementations of various data structures and algorith
 - [Stack Demo](https://github.com/ninja9210/dsa/blob/main/07/stack_demo.cpp)
 - [Queue Demo](https://github.com/ninja9210/dsa/blob/main/08/queue_demo.cpp)
 - [Linked List Demo](https://github.com/ninja9210/dsa/blob/main/09/linked_list_demo.cpp)
-
-## Algorithms
-
-### Sorting Algorithms
-
-- **Bubble Sort**: [bubble_sort.cpp](https://github.com/ninja9210/dsa/blob/main/01/bubble_sort.cpp)
-- **Quick Sort**: [quick_sort.cpp](https://github.com/ninja9210/dsa/blob/main/02/quick_sort.cpp)
-- **Selection Sort**: [selection_sort.cpp](https://github.com/ninja9210/dsa/blob/main/03/selection_sort.cpp)
-- **Insertion Sort**: [insertion_sort.cpp](https://github.com/ninja9210/dsa/blob/main/04/insertion_sort.cpp)
-
-### Searching Algorithms
-
-- **Linear Search**: [linear_search.cpp](https://github.com/ninja9210/dsa/blob/main/05/linear_search.cpp)
-- **Binary Search**: [binary_search.cpp](https://github.com/ninja9210/dsa/blob/main/06/binary_search.cpp)
-
-### Data Structures
-
-- **Stack**: [stack_demo.cpp](https://github.com/ninja9210/dsa/blob/main/07/stack_demo.cpp)
-- **Queue**: [queue_demo.cpp](https://github.com/ninja9210/dsa/blob/main/08/queue_demo.cpp)
-- **Linked List**: [linked_list_demo.cpp](https://github.com/ninja9210/dsa/blob/main/09/linked_list_demo.cpp)
 
 ---
 
