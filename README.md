@@ -2,6 +2,44 @@
 
 This repository contains various DSA practicals implemented in C++.
 
+# Data Structures and Algorithms
+
+This repository contains implementations of various data structures and algorithms in C++. Each algorithm is implemented in a separate file for clarity and ease of understanding.
+
+## Repository Structure
+
+- [Bubble Sort](https://github.com/ninja9210/dsa/blob/main/01/bubble_sort.cpp)
+- [Quick Sort](https://github.com/ninja9210/dsa/blob/main/02/quick_sort.cpp)
+- [Selection Sort](https://github.com/ninja9210/dsa/blob/main/03/selection_sort.cpp)
+- [Insertion Sort](https://github.com/ninja9210/dsa/blob/main/04/insertion_sort.cpp)
+- [Linear Search](https://github.com/ninja9210/dsa/blob/main/05/linear_search.cpp)
+- [Binary Search](https://github.com/ninja9210/dsa/blob/main/06/binary_search.cpp)
+- [Stack Demo](https://github.com/ninja9210/dsa/blob/main/07/stack_demo.cpp)
+- [Queue Demo](https://github.com/ninja9210/dsa/blob/main/08/queue_demo.cpp)
+- [Linked List Demo](https://github.com/ninja9210/dsa/blob/main/09/linked_list_demo.cpp)
+
+## Algorithms
+
+### Sorting Algorithms
+
+- **Bubble Sort**: [bubble_sort.cpp](https://github.com/ninja9210/dsa/blob/main/01/bubble_sort.cpp)
+- **Quick Sort**: [quick_sort.cpp](https://github.com/ninja9210/dsa/blob/main/02/quick_sort.cpp)
+- **Selection Sort**: [selection_sort.cpp](https://github.com/ninja9210/dsa/blob/main/03/selection_sort.cpp)
+- **Insertion Sort**: [insertion_sort.cpp](https://github.com/ninja9210/dsa/blob/main/04/insertion_sort.cpp)
+
+### Searching Algorithms
+
+- **Linear Search**: [linear_search.cpp](https://github.com/ninja9210/dsa/blob/main/05/linear_search.cpp)
+- **Binary Search**: [binary_search.cpp](https://github.com/ninja9210/dsa/blob/main/06/binary_search.cpp)
+
+### Data Structures
+
+- **Stack**: [stack_demo.cpp](https://github.com/ninja9210/dsa/blob/main/07/stack_demo.cpp)
+- **Queue**: [queue_demo.cpp](https://github.com/ninja9210/dsa/blob/main/08/queue_demo.cpp)
+- **Linked List**: [linked_list_demo.cpp](https://github.com/ninja9210/dsa/blob/main/09/linked_list_demo.cpp)
+
+---
+
 ## Practical List
 
 1. [Matrix Operations](https://github.com/ninja9210/dsa/blob/main/practical%201/matrix.cpp)
