@@ -5,12 +5,12 @@
 
 using namespace std;
 
-// Function to check if the given character is an operator
+
 bool isOperator(char c) {
     return (!isalpha(c) && !isdigit(c));
 }
 
-// Function to get the precedence of an operator
+
 int getPrecedence(char c) {
     if (c == '+' || c == '-') {
         return 1;
@@ -22,12 +22,12 @@ int getPrecedence(char c) {
     return 0;
 }
 
-// Function to convert infix to prefix expression
+
 string infixToPrefix(string infix) {
-    // Reverse the infix expression
+   
     reverse(infix.begin(), infix.end());
 
-    // Replace '(' with ')' and vice versa
+  
     for (int i = 0; i < infix.size(); i++) {
         if (infix[i] == '(') {
             infix[i] = ')';
@@ -64,7 +64,7 @@ string infixToPrefix(string infix) {
         s.pop();
     }
 
-    // Reverse the prefix expression
+    
     reverse(prefix.begin(), prefix.end());
 
     return prefix;
