@@ -5,13 +5,13 @@ void main()
     clrscr();
     int a[10] = {25, 18, 6, 2, 8, 12, 23, 55, 34, 41};
     int i, j, temp;
-    // print array elements before sorting
+    
     cout << "\nArray Elements Before Sorting are:\n";
     for (i = 0; i < 10; i++)
     {
         cout << a[i] << "\t";
     }
-    // sort the array
+ 
     for (i = 1; i < 10; i++)
     {
         temp = a[i];
@@ -23,7 +23,7 @@ void main()
         }
         a[j + 1] = temp;
     }
-    // print the sorted list
+
     cout << "\nArray Elements after Sorting are:\n";
     for (i = 0; i < 10; i++)
     {
