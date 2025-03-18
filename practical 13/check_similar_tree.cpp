@@ -1,31 +1,25 @@
 #include <bits/stdc++.h>
 using namespace std;
-/* A binary tree node has data, pointer to
- left child and a pointer to right child */
 struct Node
 {
     int data;
     Node *left, *right;
 };
-/* Given two trees, return true if they are
- mirror of each other */
-/*As function has to return bool value instead integer value*/
+
 bool areMirror(Node *a, Node *b)
 {
-    /* Base case : Both empty */
+
     if (a == NULL && b == NULL)
         return true;
-    // If only one is empty
+
     if (a == NULL || b == NULL)
         return false;
-    /* Both non-empty, compare them recursively
-    Note that in recursive calls, we pass left
-    of one tree and right of other tree */
+
     return a->data == b->data &&
            areMirror(a->left, b->right) &&
            areMirror(a->right, b->left);
 }
-/* Helper function that allocates a new node */
+
 Node *newNode(int data)
 {
     Node *node = new Node;
@@ -33,7 +27,7 @@ Node *newNode(int data)
     node->left = node->right = NULL;
     return (node);
 }
-/* Driver program to test areMirror() */
+
 int main()
 {
     Node *a = newNode(1);
